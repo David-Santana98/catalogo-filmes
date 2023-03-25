@@ -4,6 +4,7 @@ import cors from "cors";
 
 import PingController from "./controller/PingController.js";
 
+
 const servidor = express();
 servidor.use(cors());
 servidor.use(express.json());
